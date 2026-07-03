@@ -17,5 +17,10 @@
 <p>Two way binding</p>
 <input [(ngModel)]="username">
 
+<p> property directives</p>
+<p [ngClass] = "isSpecial ? 'special': ''">hey i am a special class</p>
+<button (click) ="changeColor()" >click me</button>
 
+<p [ngStyle]="currentStyle">hey i am current style</p>
+<button (click) = "chnageCss()">change color</button>
 
