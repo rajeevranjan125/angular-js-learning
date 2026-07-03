@@ -1,0 +1,21 @@
+<p>login works!</p>
+<p>Interpolation</p>
+<p>{{username}}</p>
+<p>{{username | uppercase}}</p>
+<p>{{salary | currency}}</p>
+<p>{{salary | currency:'INR'}}</p>
+<p>{{salary | currency:'EUR'}}</p>
+<p>{{salary | currency:'USD'}}</p>
+<p>{{user.email}}</p>
+<p>{{'ABEdef' | lowercase}}</p>
+<p>{{10+2 == 12}}</p>
+<p>property binding</p>
+<p [hidden]="!isHidden">{{isHidden}}</p>
+<button (click)="fun()">Click</button>
+<p>Event binding</p>
+<p [hidden]="isHidden">Indian</p>
+<p>Two way binding</p>
+<input [(ngModel)]="username">
+
+
+
